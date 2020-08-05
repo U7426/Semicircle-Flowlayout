@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "OperationView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    OperationView *operationView = [[OperationView alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:operationView];
 }
 
 

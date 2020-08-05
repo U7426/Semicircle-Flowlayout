@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C83BBE2D2268312400C586BF /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C83BBE2C2268312400C586BF /* NSObject+Common.m */; };
+		C8701A56226C327900F4F750 /* AdsorbFollowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C8701A55226C327900F4F750 /* AdsorbFollowLayout.m */; };
 		C87BA43322649840004BE018 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BA43222649840004BE018 /* AppDelegate.m */; };
 		C87BA43622649840004BE018 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BA43522649840004BE018 /* ViewController.m */; };
 		C87BA43922649840004BE018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87BA43722649840004BE018 /* Main.storyboard */; };
 		C87BA43B22649841004BE018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87BA43A22649841004BE018 /* Assets.xcassets */; };
 		C87BA43E22649841004BE018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87BA43C22649841004BE018 /* LaunchScreen.storyboard */; };
 		C87BA44122649841004BE018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BA44022649841004BE018 /* main.m */; };
+		C87BA44922649867004BE018 /* OperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BA44822649867004BE018 /* OperationView.m */; };
+		C87BA4932264990A004BE018 /* indonesia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA48A22649909004BE018 /* indonesia.jpg */; };
+		C87BA4942264990A004BE018 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA48B22649909004BE018 /* beach.jpg */; };
+		C87BA4952264990A004BE018 /* rotterdam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA48C2264990A004BE018 /* rotterdam.jpg */; };
+		C87BA4962264990A004BE018 /* australia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA48D2264990A004BE018 /* australia.jpg */; };
+		C87BA4972264990A004BE018 /* montain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA48E2264990A004BE018 /* montain.jpg */; };
+		C87BA4982264990A004BE018 /* seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA48F2264990A004BE018 /* seattle.jpg */; };
+		C87BA4992264990A004BE018 /* hands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA4902264990A004BE018 /* hands.jpg */; };
+		C87BA49A2264990A004BE018 /* building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA4912264990A004BE018 /* building.jpg */; };
+		C87BA49B2264990A004BE018 /* nyc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C87BA4922264990A004BE018 /* nyc.jpg */; };
+		C87BA49D22649953004BE018 /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = C87BA49C22649953004BE018 /* photos.json */; };
+		C87BA4A02264997E004BE018 /* CommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BA49F2264997E004BE018 /* CommonCell.m */; };
+		C87BA4A32264A833004BE018 /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BA4A22264A833004BE018 /* CustomCollectionView.m */; };
+		C8D44F5B226A1B88005F43D0 /* RoundFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D44F5A226A1B88005F43D0 /* RoundFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C83BBE2B2268312400C586BF /* NSObject+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
+		C83BBE2C2268312400C586BF /* NSObject+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
+		C8701A54226C327900F4F750 /* AdsorbFollowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdsorbFollowLayout.h; sourceTree = "<group>"; };
+		C8701A55226C327900F4F750 /* AdsorbFollowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsorbFollowLayout.m; sourceTree = "<group>"; };
 		C87BA42E22649840004BE018 /* Operaion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Operaion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87BA43122649840004BE018 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C87BA43222649840004BE018 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +46,24 @@
 		C87BA43D22649841004BE018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87BA43F22649841004BE018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87BA44022649841004BE018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C87BA44722649867004BE018 /* OperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationView.h; sourceTree = "<group>"; };
+		C87BA44822649867004BE018 /* OperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationView.m; sourceTree = "<group>"; };
+		C87BA48A22649909004BE018 /* indonesia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indonesia.jpg; sourceTree = "<group>"; };
+		C87BA48B22649909004BE018 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		C87BA48C2264990A004BE018 /* rotterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rotterdam.jpg; sourceTree = "<group>"; };
+		C87BA48D2264990A004BE018 /* australia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = australia.jpg; sourceTree = "<group>"; };
+		C87BA48E2264990A004BE018 /* montain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = montain.jpg; sourceTree = "<group>"; };
+		C87BA48F2264990A004BE018 /* seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seattle.jpg; sourceTree = "<group>"; };
+		C87BA4902264990A004BE018 /* hands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hands.jpg; sourceTree = "<group>"; };
+		C87BA4912264990A004BE018 /* building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building.jpg; sourceTree = "<group>"; };
+		C87BA4922264990A004BE018 /* nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc.jpg; sourceTree = "<group>"; };
+		C87BA49C22649953004BE018 /* photos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photos.json; sourceTree = "<group>"; };
+		C87BA49E2264997E004BE018 /* CommonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCell.h; sourceTree = "<group>"; };
+		C87BA49F2264997E004BE018 /* CommonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonCell.m; sourceTree = "<group>"; };
+		C87BA4A12264A833004BE018 /* CustomCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
+		C87BA4A22264A833004BE018 /* CustomCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
+		C8D44F59226A1B88005F43D0 /* RoundFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundFlowLayout.h; sourceTree = "<group>"; };
+		C8D44F5A226A1B88005F43D0 /* RoundFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +96,47 @@
 		C87BA43022649840004BE018 /* Operaion */ = {
 			isa = PBXGroup;
 			children = (
+				C87BA489226498EA004BE018 /* Images */,
+				C8D44F59226A1B88005F43D0 /* RoundFlowLayout.h */,
+				C8D44F5A226A1B88005F43D0 /* RoundFlowLayout.m */,
+				C8701A54226C327900F4F750 /* AdsorbFollowLayout.h */,
+				C8701A55226C327900F4F750 /* AdsorbFollowLayout.m */,
 				C87BA43122649840004BE018 /* AppDelegate.h */,
 				C87BA43222649840004BE018 /* AppDelegate.m */,
 				C87BA43422649840004BE018 /* ViewController.h */,
 				C87BA43522649840004BE018 /* ViewController.m */,
+				C87BA44722649867004BE018 /* OperationView.h */,
+				C87BA44822649867004BE018 /* OperationView.m */,
+				C87BA4A12264A833004BE018 /* CustomCollectionView.h */,
+				C87BA4A22264A833004BE018 /* CustomCollectionView.m */,
+				C87BA49E2264997E004BE018 /* CommonCell.h */,
+				C87BA49F2264997E004BE018 /* CommonCell.m */,
+				C83BBE2B2268312400C586BF /* NSObject+Common.h */,
+				C83BBE2C2268312400C586BF /* NSObject+Common.m */,
 				C87BA43722649840004BE018 /* Main.storyboard */,
+				C87BA49C22649953004BE018 /* photos.json */,
 				C87BA43A22649841004BE018 /* Assets.xcassets */,
 				C87BA43C22649841004BE018 /* LaunchScreen.storyboard */,
 				C87BA43F22649841004BE018 /* Info.plist */,
 				C87BA44022649841004BE018 /* main.m */,
 			);
 			path = Operaion;
+			sourceTree = "<group>";
+		};
+		C87BA489226498EA004BE018 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C87BA48D2264990A004BE018 /* australia.jpg */,
+				C87BA48B22649909004BE018 /* beach.jpg */,
+				C87BA4912264990A004BE018 /* building.jpg */,
+				C87BA4902264990A004BE018 /* hands.jpg */,
+				C87BA48A22649909004BE018 /* indonesia.jpg */,
+				C87BA48E2264990A004BE018 /* montain.jpg */,
+				C87BA4922264990A004BE018 /* nyc.jpg */,
+				C87BA48C2264990A004BE018 /* rotterdam.jpg */,
+				C87BA48F2264990A004BE018 /* seattle.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +196,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87BA49B2264990A004BE018 /* nyc.jpg in Resources */,
+				C87BA49A2264990A004BE018 /* building.jpg in Resources */,
+				C87BA4992264990A004BE018 /* hands.jpg in Resources */,
+				C87BA4972264990A004BE018 /* montain.jpg in Resources */,
+				C87BA4962264990A004BE018 /* australia.jpg in Resources */,
+				C87BA4952264990A004BE018 /* rotterdam.jpg in Resources */,
 				C87BA43E22649841004BE018 /* LaunchScreen.storyboard in Resources */,
+				C87BA4942264990A004BE018 /* beach.jpg in Resources */,
+				C87BA4982264990A004BE018 /* seattle.jpg in Resources */,
 				C87BA43B22649841004BE018 /* Assets.xcassets in Resources */,
+				C87BA4932264990A004BE018 /* indonesia.jpg in Resources */,
+				C87BA49D22649953004BE018 /* photos.json in Resources */,
 				C87BA43922649840004BE018 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83BBE2D2268312400C586BF /* NSObject+Common.m in Sources */,
 				C87BA43622649840004BE018 /* ViewController.m in Sources */,
 				C87BA44122649841004BE018 /* main.m in Sources */,
+				C8D44F5B226A1B88005F43D0 /* RoundFlowLayout.m in Sources */,
+				C87BA44922649867004BE018 /* OperationView.m in Sources */,
+				C87BA4A02264997E004BE018 /* CommonCell.m in Sources */,
+				C87BA4A32264A833004BE018 /* CustomCollectionView.m in Sources */,
+				C8701A56226C327900F4F750 /* AdsorbFollowLayout.m in Sources */,
 				C87BA43322649840004BE018 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 32PWMM5MP8;
+				DEVELOPMENT_TEAM = AZ7RB8C97K;
 				INFOPLIST_FILE = Operaion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 32PWMM5MP8;
+				DEVELOPMENT_TEAM = AZ7RB8C97K;
 				INFOPLIST_FILE = Operaion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
